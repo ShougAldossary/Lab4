@@ -1,0 +1,28 @@
+TASK 2
+
+30 ?- consult(['c:/Users/shoug/OneDrive/Desktop/Lab4.pl'l]).
+true.
+
+31 ?- female(X).
+X = sara ;
+X = nora.
+
+32 ?- male(_).
+true
+
+33 ?- parent (GP), parent (P, faisal).
+G = ali,
+P = muhammad .
+
+34 ?- parent (ahmed, D), female (D).
+false.
+
+35 ?- parent (ahmad, D), female (D).
+D = Sara ;
+D = nora.
+
+36 ?- parent(P, ahmad), parent (P, muhammad).
+P = ali.
+
+37 ?- male(khan), parent (P, khan), parent (P, nora).
+P = ahmad.
